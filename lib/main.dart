@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:your_alias/core/theme.dart';
 import 'package:your_alias/presentation/onboarding/onboarding.dart';
 void main() {
    WidgetsFlutterBinding.ensureInitialized();
@@ -14,10 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Your Alias',
-      theme: ThemeData(
-       
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-      ),
+      theme: AppTheme.lightTheme,
+      
       home: OnboardingScreen (),
     );
   }
