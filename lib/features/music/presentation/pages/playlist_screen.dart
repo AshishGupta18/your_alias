@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:your_alias/core/theme.dart';
-import 'package:your_alias/features/music/data/datasources/song_remote_datasource.dart';
 import 'package:your_alias/features/music/presentation/bloc/song_bloc.dart';
 import 'package:your_alias/features/music/presentation/bloc/song_state.dart';
 import 'package:your_alias/features/music/presentation/pages/music_player_screen.dart';
-import 'package:http/http.dart' as http;
 
 class PlaylistScreen extends StatelessWidget {
   PlaylistScreen({Key? key}) : super(key: key);

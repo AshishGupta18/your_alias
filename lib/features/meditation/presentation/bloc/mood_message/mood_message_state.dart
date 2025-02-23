@@ -1,4 +1,3 @@
-import 'package:your_alias/features/meditation/domain/entities/daily_quote.dart';
 import 'package:your_alias/features/meditation/domain/entities/mood_message.dart';
 
 abstract class MoodMessageState {}
