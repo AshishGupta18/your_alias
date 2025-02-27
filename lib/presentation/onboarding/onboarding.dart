@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:mental_health/presentation/homePage/home_page.dart';
+import 'package:your_alias/presentation/homePage/home_page.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({Key? key}) : super(key: key);
@@ -20,12 +20,12 @@ class OnboardingScreen extends StatelessWidget {
                 height: 70,
                 child: ElevatedButton(
                     onPressed: (){
-                      // Navigator.pushAndRemoveUntil(
-                      //     context,
-                      //     MaterialPageRoute(
-                      //         builder: (BuildContext context) =>
-                      //             HomeScreen()),
-                      //         (Route<dynamic> route) => false);
+                      Navigator.pushAndRemoveUntil(
+                          context,
+                          MaterialPageRoute(
+                              builder: (BuildContext context) =>
+                                  HomeScreen()),
+                              (Route<dynamic> route) => false);
                     },
                     child: Text(
                         'Let us help you',
